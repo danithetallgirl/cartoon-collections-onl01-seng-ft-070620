@@ -1,18 +1,18 @@
-def roll_call_dwarves(dwarfs)
-  dwarfs.each_with_index do |name , index|
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do |name , index|
     puts "#{index + 1} #{name}"
   end
 end
 
-def summon_captain_planet(veggies)
-    veggies.collect do |call| 
-    call.capitalize + "!"
+def summon_captain_planet(calls)
+    calls.collect do |calls| 
+    calls.capitalize + "!"
   end
 end
 
 def long_planeteer_calls(calls)
-  calls.any? do |call|
-    call.length > 4
+  calls.any? do |calls|
+    calls.length > 4
   end
 end
 
